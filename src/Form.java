@@ -315,14 +315,14 @@ public class Form extends javax.swing.JFrame {
               System.out.println("File already exists.");
             }
             try (FileWriter myWriter = new FileWriter("Data_Form.txt")) {
-                myWriter.write(email+ "\n");
-                myWriter.write(username + "\n");
-                myWriter.write(password+ "\n");
+                myWriter.write(emaill+ "\n");
+                myWriter.write(usernamee + "\n");
+                myWriter.write(passwordd+ "\n");
                 myWriter.write(jkk+ "\n");
-                myWriter.write(nama+ "\n");
-                myWriter.write(ttl+ "\n");
-                myWriter.write(alamat+ "\n");
-                myWriter.write(desc+ "\n");
+                myWriter.write(namaa+ "\n");
+                myWriter.write(ttll+ "\n");
+                myWriter.write(alamatt+ "\n");
+                myWriter.write(descc+ "\n");
             }
 
          } catch (IOException e) {
