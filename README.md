@@ -1,3 +1,3 @@
-# quiz_prakpbo
+# Praktikum PBO
 
 istianmws/123190107
